@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\DoctorsController;
+use App\Http\Controllers\MedicationsController;
+use App\Http\Controllers\PatientsController;
+use App\Http\Controllers\PrescriptionsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PrescriptionsController::class, 'index'])->name('homePage');
+Route::resource('/prescriptions', PrescriptionsController::class);
+Route::resource('/patients', PatientsController::class);
+Route::resource('/doctors', DoctorsController::class);
+Route::resource('/medications', MedicationsController::class);
