@@ -21,7 +21,11 @@ Github repo cho bài tập kê đơn thuốc.
 
 # Phần trăm đóng góp
 1, Huỳnh Huy Hoàng: **35%**
+
 2, Đào Phước Hoàng: **20%**
+
 3, Võ Thị Phương Hiền: **15%**
+
 4, Văn Thị Mỹ Dung: **15%**
+
 5, Nguyễn Thị Mỹ Lan: **15%**
